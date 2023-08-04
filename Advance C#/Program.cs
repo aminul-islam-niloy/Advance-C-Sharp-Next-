@@ -37,16 +37,16 @@ namespace Advance_C_
             // Person is class and person is object create
             // new Person() is and reference of Main class
             // in premetive data copy but not reference copy
-           
-          
 
-          //  string Name= Console.ReadLine();
+
+
+            //  string Name= Console.ReadLine();
             //person.FirstName(Name);
             //// person.Name = Name;
             //person.PersonId = 1;
             //person.Age = 30;
             //person.PersonInfo();
-          
+
 
 
             //Person person2 = new Person();
@@ -60,30 +60,36 @@ namespace Advance_C_
             //person3 = person2;
             //person3.PersonInfo();
 
-// setter and getter 
-//auto properties
-            SeeterAndGetter personInfo = new SeeterAndGetter();
+            // setter and getter 
+            //auto properties
+            //  SeeterAndGetter personInfo = new SeeterAndGetter();
 
-            personInfo.FirstName = Console.ReadLine();
-            string nameInfo = personInfo.FirstName;
-            personInfo.middleName = "Islam";
-            personInfo.lastName = "Niloy";
-            personInfo.PrintDetails();
+            //  personInfo.FirstName = Console.ReadLine();
+            //  string nameInfo = personInfo.FirstName;
+            //  personInfo.middleName = "Islam";
+            //  personInfo.lastName = "Niloy";
+            ////  personInfo.PrintDetails();
 
-            personInfo.SessionCode = 7654;
-            int section = personInfo.SessionCode;
-            // we can control access property by auto properties.
-            // we have to add private before set and get
+            //  personInfo.SessionCode = 7654;
+            //  int section = personInfo.SessionCode;
+            //  // we can control access property by auto properties.
+            //  // we have to add private before set and get
 
-            Console.WriteLine(nameInfo);
-
-          
-            SeeterAndGetter seeterAndGetter = new SeeterAndGetter();
+            ////  Console.WriteLine(nameInfo);
 
 
+            //  SeeterAndGetter seeterAndGetter = new SeeterAndGetter();
 
-//Object initializer in c# 
-             Studentinit student = new Studentinit()
+
+            // constructor and it's uses
+            StudentConstructor studentConstructor = new StudentConstructor("AMINUL","ISLAM","NILOY");
+            studentConstructor.PrintStudentDetails();
+
+
+
+
+                 //Object initializer in c# 
+                 Studentinit student = new Studentinit()
             {
                 Id = 1,
                 Name = "Amin",
