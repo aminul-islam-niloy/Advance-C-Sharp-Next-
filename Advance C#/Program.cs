@@ -3,6 +3,7 @@ using Advance_C_.Enum;
 using Advance_C_.ExtrnsionMethod;
 using Advance_C_.Generic;
 using Advance_C_.Object_Initializer;
+using Advance_C_.OOP.Class_and_Object;
 using Advance_C_.Static;
 using System;
 using System.Collections.Generic;
@@ -28,7 +29,36 @@ namespace Advance_C_
         static void Main(string[] args)
         {
 
-//Object initializer in c# 
+
+// class and object 
+
+             Person person = new Person();
+            // here is and important things:
+            // Person is class and person is object create
+            // new Person() is and reference of Main class
+            // in premetive data copy but not reference copy
+            person.Name = "Test";
+            person.PersonId = 1;
+            person.Age = 30;
+            person.PersonInfo();
+
+            Person person2 = new Person();
+           // person2.Age = 55;
+            person2.Name = "Hasan Ali";
+            person2.PersonId = 22;
+
+            person2.PersonInfo();
+
+            Person person3= new Person();
+            person3 = person2;
+            person3.PersonInfo();
+
+
+
+
+
+
+            //Object initializer in c# 
             Studentinit student = new Studentinit()
             {
                 Id = 1,
@@ -421,31 +451,31 @@ namespace Advance_C_
            
            // Console.Write(assemblyName);
            
-            var methods= StudentClassInfo.GetMethods();
+           // var methods= StudentClassInfo.GetMethods();
 
-            foreach ( var method in methods)
-            {
-                Console.WriteLine("Return type is : "+method.ReturnType+ " Method name is: "+ method.Name);
-            }
+           // foreach ( var method in methods)
+           // {
+           //    // Console.WriteLine("Return type is : "+method.ReturnType+ " Method name is: "+ method.Name);
+           // }
 
-            Console.WriteLine("\n");
+           //// Console.WriteLine("\n");
 
-            var GetAllProperties = StudentClassInfo.GetProperties(System.Reflection.BindingFlags.NonPublic|
-                System.Reflection.BindingFlags.Instance);
+           // var GetAllProperties = StudentClassInfo.GetProperties(System.Reflection.BindingFlags.NonPublic|
+           //     System.Reflection.BindingFlags.Instance);
 
-            foreach (var getAllresult in GetAllProperties)
-            {
-                Console.WriteLine(getAllresult.Name);
-            }
+           // foreach (var getAllresult in GetAllProperties)
+           // {
+           //     Console.WriteLine(getAllresult.Name);
+           // }
 
-            Console.WriteLine("\n");
+           // Console.WriteLine("\n");
 
-            var GetProperties = StudentClassInfo.GetProperties();
+           // var GetProperties = StudentClassInfo.GetProperties();
 
-            foreach (var getAllresult in GetProperties)
-            {
-                Console.WriteLine(getAllresult.Name);
-            }
+           // foreach (var getAllresult in GetProperties)
+           // {
+           //     Console.WriteLine(getAllresult.Name);
+           // }
 
 
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Advance_C_.Object_Initializer
 {
-     class Student
+     class Studentinit
     {
         public int Id { get; set; }
         public string Name { get; set; }    
