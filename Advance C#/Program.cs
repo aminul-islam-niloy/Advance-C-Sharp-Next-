@@ -40,7 +40,7 @@ namespace Advance_C_
             //string name = student.Name;
             //Console.WriteLine(name);
 
-            //collection inintializer in c#
+//collection inintializer in c#
             Student student1 = new Student() { Id = 1, Name = "Amin", 
                                                        Address = "Dhaka", Age = 10 };
             Student student2 = new Student() { Id = 2, Name = "Akij", Address = "Dhaka", Age = 20 };
