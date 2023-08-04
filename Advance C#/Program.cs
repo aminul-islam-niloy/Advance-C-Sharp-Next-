@@ -37,14 +37,21 @@ namespace Advance_C_
             // Person is class and person is object create
             // new Person() is and reference of Main class
             // in premetive data copy but not reference copy
-            person.Name = "Test";
+           
+          
+
+            string Name= Console.ReadLine();
+            person.FirstName(Name);
+            // person.Name = Name;
             person.PersonId = 1;
             person.Age = 30;
             person.PersonInfo();
+          
+
 
             Person person2 = new Person();
-           // person2.Age = 55;
-            person2.Name = "Hasan Ali";
+            person2.Age = 55;
+            person2.FirstName(Name);
             person2.PersonId = 22;
 
             person2.PersonInfo();
