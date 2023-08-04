@@ -13,7 +13,7 @@ namespace Advance_C_.OOP.Class_and_Object
         public string MiddleName { get; set; }
         public string LastName { get; set; }
 
-        public StudentConstructor(string firstName, string middleName,string lastName) 
+        public StudentConstructor(string firstName, string middleName,string lastName):this(firstName,lastName) 
         
         { 
         
@@ -23,7 +23,8 @@ namespace Advance_C_.OOP.Class_and_Object
         
         }
 
-        public StudentConstructor(string firstName, string lastName)
+        // here :this used for constructor chaining 
+        public StudentConstructor(string firstName, string lastName):this()
 
         {
 
@@ -32,12 +33,12 @@ namespace Advance_C_.OOP.Class_and_Object
 
         }
 
-        //public StudentConstructor()
+        public StudentConstructor()
 
-        //{
-        //    Console.WriteLine("Default constructor is called");
+        {
+            Console.WriteLine("Default constructor is called");
 
-        //}
+        }
 
         public void PrintStudentDetails()
         {
