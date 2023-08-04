@@ -23,8 +23,23 @@ namespace Advance_C_.OOP.Class_and_Object
         
         }
 
+        public StudentConstructor(string firstName, string lastName)
 
-            public void PrintStudentDetails()
+        {
+
+            FirstName = firstName;
+            LastName = lastName;
+
+        }
+
+        //public StudentConstructor()
+
+        //{
+        //    Console.WriteLine("Default constructor is called");
+
+        //}
+
+        public void PrintStudentDetails()
         {
             Console.WriteLine("Constructor name : "+ FirstName+ " " + MiddleName+ " "+ LastName); 
         }

@@ -82,10 +82,10 @@ namespace Advance_C_
 
 
             // constructor and it's uses
-            StudentConstructor studentConstructor = new StudentConstructor("AMINUL","ISLAM","NILOY");
-            studentConstructor.PrintStudentDetails();
-
-
+           // StudentConstructor studentConstructor = new StudentConstructor("AMINUL","ISLAM","NILOY");
+           // studentConstructor.PrintStudentDetails();
+            StudentConstructor studentConstructorTest = new StudentConstructor("niloy","ft");
+            studentConstructorTest.PrintStudentDetails();
 
 
                  //Object initializer in c# 
