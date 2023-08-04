@@ -60,7 +60,8 @@ namespace Advance_C_
             //person3 = person2;
             //person3.PersonInfo();
 
-
+// setter and getter 
+//auto properties
             SeeterAndGetter personInfo = new SeeterAndGetter();
 
             personInfo.FirstName = Console.ReadLine();
@@ -77,10 +78,11 @@ namespace Advance_C_
             Console.WriteLine(nameInfo);
 
           
+            SeeterAndGetter seeterAndGetter = new SeeterAndGetter();
 
 
 
-             //Object initializer in c# 
+//Object initializer in c# 
              Studentinit student = new Studentinit()
             {
                 Id = 1,

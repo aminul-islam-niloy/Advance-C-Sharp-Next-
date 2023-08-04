@@ -12,9 +12,21 @@ namespace Advance_C_.OOP.Class_and_Object
         public string lastName;
         public string middleName;
 
+        private string password;
         public int SessionCode {  get;  set; }
 
-        private string password;
+
+        public string department { get; set; }
+        public int session { get; set; }
+
+        // Constructor
+       public SeeterAndGetter(string Dept, int sessionNum)
+        {
+            department = Dept;
+            session = sessionNum;
+        }
+
+   
 
         public SeeterAndGetter()
         {
