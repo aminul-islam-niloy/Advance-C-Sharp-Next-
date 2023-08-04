@@ -40,33 +40,43 @@ namespace Advance_C_
            
           
 
-            string Name= Console.ReadLine();
-            person.FirstName(Name);
-            // person.Name = Name;
-            person.PersonId = 1;
-            person.Age = 30;
-            person.PersonInfo();
+          //  string Name= Console.ReadLine();
+            //person.FirstName(Name);
+            //// person.Name = Name;
+            //person.PersonId = 1;
+            //person.Age = 30;
+            //person.PersonInfo();
           
 
 
-            Person person2 = new Person();
-            person2.Age = 55;
-            person2.FirstName(Name);
-            person2.PersonId = 22;
+            //Person person2 = new Person();
+            //person2.Age = 55;
+            //person2.FirstName(Name);
+            //person2.PersonId = 22;
 
-            person2.PersonInfo();
+            //person2.PersonInfo();
 
-            Person person3= new Person();
-            person3 = person2;
-            person3.PersonInfo();
-
-
+            //Person person3= new Person();
+            //person3 = person2;
+            //person3.PersonInfo();
 
 
+            SeeterAndGetter personInfo = new SeeterAndGetter();
+
+            personInfo.FirstName = Console.ReadLine();
+            string nameInfo = personInfo.FirstName;
+            personInfo.middleName = "Islam";
+            personInfo.lastName = "Niloy";
+            personInfo.PrintDetails();
+
+            Console.WriteLine(nameInfo);
+
+          
 
 
-            //Object initializer in c# 
-            Studentinit student = new Studentinit()
+
+             //Object initializer in c# 
+             Studentinit student = new Studentinit()
             {
                 Id = 1,
                 Name = "Amin",
