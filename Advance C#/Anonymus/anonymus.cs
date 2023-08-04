@@ -12,7 +12,7 @@ namespace Advance_C_.Anonymus
 }
 
 
-            ////anonymus data type
+//anonymus data type
             //var anonymusType = new
             //{
             //    Name = "AMIN",
