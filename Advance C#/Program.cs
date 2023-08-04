@@ -82,15 +82,50 @@ namespace Advance_C_
 
 
             // constructor and it's uses
-            StudentConstructor studentConstructor = new StudentConstructor("AMINUL","ISLAM","NILOY");
-            studentConstructor.PrintStudentDetails();
-            StudentConstructor studentConstructorTest = new StudentConstructor("niloy","ft");
-            studentConstructorTest.PrintStudentDetails();
+            //StudentConstructor studentConstructor = new StudentConstructor("AMINUL","ISLAM","NILOY");
+            //studentConstructor.PrintStudentDetails();
+            //StudentConstructor studentConstructorTest = new StudentConstructor("niloy","ft");
+            //studentConstructorTest.PrintStudentDetails();
+
+// Cardinaty Constrain
+// has a relationship; one to one association
+    // feild level othe class is used.
+    // address class inside person class
+
+             Address address = new Address();
+                address.RoadNo = " Boikali road";
+                address.Area = "Khalishpur";
+                address.PostCode = "9000";
+                address.District = "Khulna";
+            // here one object but many reference 
+
+            address.AddressPrint();
+
+
+            StudentConstructor studentConstructor = new StudentConstructor();
+            studentConstructor.PresentAddress = address;
+
+            // data decrept
+            Address personAddress = studentConstructor.PresentAddress;
+
+            string houseNum = personAddress.HouseNo;
+            string roadNum=personAddress.RoadNo;
+            string area= personAddress.Area;
+            string postCode = personAddress.PostCode;
+
+            string district = studentConstructor.PresentAddress.District;
+
+            // if we use other class address used in field lavel in other class it's assiociation one to one
 
 
 
 
-//Object initializer in c# 
+
+
+
+
+
+                 //Object initializer in c# 
                  Studentinit student = new Studentinit()
             {
                 Id = 1,
