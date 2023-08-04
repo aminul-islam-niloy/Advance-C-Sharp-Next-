@@ -56,7 +56,7 @@
     <Compile Include="GenericExample.cs" />
     <Compile Include="Generic\Generic Delegate.cs" />
     <Compile Include="Generic\GenericExample.cs" />
-    <Compile Include="Object Initializer\Student.cs" />
+    <Compile Include="Object Initializer\Studentinit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\ReflectionClass.cs" />
