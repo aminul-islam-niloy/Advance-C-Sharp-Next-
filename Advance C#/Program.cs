@@ -69,6 +69,11 @@ namespace Advance_C_
             personInfo.lastName = "Niloy";
             personInfo.PrintDetails();
 
+            personInfo.SessionCode = 7654;
+            int section = personInfo.SessionCode;
+            // we can control access property by auto properties.
+            // we have to add private before set and get
+
             Console.WriteLine(nameInfo);
 
           

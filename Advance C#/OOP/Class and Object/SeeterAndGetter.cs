@@ -12,6 +12,7 @@ namespace Advance_C_.OOP.Class_and_Object
         public string lastName;
         public string middleName;
 
+        public int SessionCode {  get;  set; }
 
         private string password;
 
