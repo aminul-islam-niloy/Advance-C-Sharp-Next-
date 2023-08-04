@@ -40,13 +40,13 @@ namespace Advance_C_.OOP.Class_and_Object
         public StudentConstructor()
 
         {
-            Console.WriteLine("Default constructor is called");
+          //  Console.WriteLine("Default constructor is called");
 
         }
 
         public void PrintStudentDetails()
         {
-            Console.WriteLine("Constructor name : "+ FirstName+ " " + MiddleName+ " "+ LastName); 
+          //  Console.WriteLine("Constructor name : "+ FirstName+ " " + MiddleName+ " "+ LastName); 
         }
 
     }

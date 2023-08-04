@@ -16,7 +16,7 @@ namespace Advance_C_.OOP.Class_and_Object
 
         public void AddressPrint()
         {
-            Console.WriteLine("Rode no" + RoadNo + " in " + Area + " and city is " + District);
+          //  Console.WriteLine("Rode no" + RoadNo + " in " + Area + " and city is " + District);
         }
     }
 }

@@ -3,6 +3,7 @@ using Advance_C_.Enum;
 using Advance_C_.ExtrnsionMethod;
 using Advance_C_.Generic;
 using Advance_C_.Object_Initializer;
+using Advance_C_.OOP.cardinality_constraints;
 using Advance_C_.OOP.Class_and_Object;
 using Advance_C_.Static;
 using System;
@@ -105,7 +106,7 @@ namespace Advance_C_
             StudentConstructor studentConstructor = new StudentConstructor();
             studentConstructor.PresentAddress = address;
 
-            // data decrept
+ // data decrept
             Address personAddress = studentConstructor.PresentAddress;
 
             string houseNum = personAddress.HouseNo;
@@ -119,14 +120,60 @@ namespace Advance_C_
 
 
 
+// One to many relation implementation in c
+
+
+            Course course1   = new Course();
+            course1.Courseecode = "CSE-01";
+            course1.Coursetitle = "programming C#";
+            course1.Coursecredit = 3.5;
+
+            Course course2 = new Course();
+            course2.Courseecode = "CSE-02";
+            course2.Coursetitle = "programming with java";
+            course2.Coursecredit = 3;
+
+            Course course3 = new Course();
+            course3.Courseecode = "CSE-03";
+            course3.Coursetitle = "java OOP";
+            course3.Coursecredit = 2.5;
+
+            //List<Course> coursesList = new List<Course>();
+            //coursesList.Add(course1);
+            //coursesList.Add(course2);
+            //coursesList.Add(course3);
+
+            Department department1 = new Department();
+
+            department1.NamesOfDept = "Computer Science and Enginnering";
+            department1.DeptCode= "CSE111";
+            // department1.Courses= coursesList;
+
+
+            department1.Courses.Add(course1);
+            department1.Courses.Add(course2);
+            department1.Courses.Add(course3);
+
+
+            //foreach(var coursesListPrint in department1.Courses)
+            //   {
+            //       Console.WriteLine(coursesListPrint.Coursetitle +" \n");
+            //   }
+
+            //foreach (var coursesListPrint in department1.Courses)
+            //{
+            //    Console.WriteLine(coursesListPrint.GetCourseInfo() + " \n");
+            //}
+
+           Console.WriteLine(department1.GetCourseInfo());   
 
 
 
 
 
 
-                 //Object initializer in c# 
-                 Studentinit student = new Studentinit()
+            //Object initializer in c# 
+            Studentinit student = new Studentinit()
             {
                 Id = 1,
                 Name = "Amin",
@@ -234,8 +281,8 @@ namespace Advance_C_
             var anonymusArray = new[]
             {
                 new{ Name= "amin", age= 10,  balance = 1055554.7},
-                  new{ Name= "jamil", age= 150,  balance = 1550.7},
-                    new{ Name= "joynul abedin", age= 90,  balance = 190.7}
+                new{ Name= "jamil", age= 150,  balance = 1550.7},
+                new{ Name= "joynul abedin", age= 90,  balance = 190.7}
             };
 
  //search an value form arraylist
