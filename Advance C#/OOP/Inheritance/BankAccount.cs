@@ -21,7 +21,7 @@ namespace Advance_C_.OOP.Inheritance
 
         }
 
-        public string Withdraw(double amount)
+        public virtual string Withdraw(double amount)
         {
             Balance -= amount;
             return "Withdrawn";

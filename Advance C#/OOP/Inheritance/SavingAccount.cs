@@ -12,5 +12,14 @@ namespace Advance_C_.OOP.Inheritance
 
      
         public double Interestamount { get; set; }
+
+        public override string Withdraw(double amount)
+        {
+          if(Balance >= amount) 
+            {
+              return base.Withdraw(amount);
+            }
+            return "Insufficient balance";
+        }
     }
 }

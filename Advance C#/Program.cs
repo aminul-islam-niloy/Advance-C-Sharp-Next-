@@ -181,23 +181,24 @@ namespace Advance_C_
             savingsAccount.AccountNo = "sv 001";
             savingsAccount.CustomerName = "Amin";
             savingsAccount.Deposit(1000);
-            savingsAccount.Withdraw(500);
+            
+           Console.WriteLine( savingsAccount.Withdraw(5000000000));
        
             double SavinfsBalance= savingsAccount.Balance;
 
-          //  Console.WriteLine( "Savings Account Balance is "+ SavinfsBalance);
+            Console.WriteLine( "Savings Account Balance is "+ SavinfsBalance);
 
-            CheckingAccount checkingAccount = new CheckingAccount();
+            //CheckingAccount checkingAccount = new CheckingAccount();
 
-            checkingAccount.ServiceCharge = 1000;
-            checkingAccount.CustomerName = "Niloy";
-            checkingAccount.AccountNo = "ck 001";
-            checkingAccount.Deposit(2000);
-            checkingAccount.Withdraw(400);
+            //checkingAccount.ServiceCharge = 1000;
+            //checkingAccount.CustomerName = "Niloy";
+            //checkingAccount.AccountNo = "ck 001";
+            //checkingAccount.Deposit(2000);
+            //checkingAccount.Withdraw(40999990);
 
-            double ChackingBalance = checkingAccount.Balance;
+            //double ChackingBalance = checkingAccount.Balance;
 
-            // Console.WriteLine("Chacking Account Balance is " + ChackingBalance);
+             //Console.WriteLine("Chacking Account Balance is " + ChackingBalance);
 
             // we can up casting and downcasting  as like
             // and we can access that value
@@ -205,24 +206,26 @@ namespace Advance_C_
             //we can take all child class reference 
 
             //downcasting
-            BankAccount b1 = new SavingAccount();
+          //  BankAccount b1 = new SavingAccount();
             // but we may not get access of  all method.
             // to eleminate this problem we can use 
 
 
-            BankAccount bank1 = savingsAccount;
+          //  BankAccount bank1 = savingsAccount;
             //here savingsAccount is the object of SavingsAccount class
 
-            SavingAccount savings =(SavingAccount) bank1;
+          //  SavingAccount savings =(SavingAccount) bank1;
            // up casting
 
+// Note  we take common things on base class those are satisfied with other child class
 
 
 
 
 
 
-            //Object initializer in c# 
+
+//Object initializer in c# 
             Studentinit student = new Studentinit()
             {
                 Id = 1,
