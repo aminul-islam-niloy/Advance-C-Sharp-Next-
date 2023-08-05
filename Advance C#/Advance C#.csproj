@@ -64,6 +64,8 @@
     <Compile Include="OOP\Class and Object\SeeterAndGetter.cs" />
     <Compile Include="OOP\Class and Object\StudentConstructor.cs" />
     <Compile Include="OOP\Inheritance\BankAccount.cs" />
+    <Compile Include="OOP\Inheritance\CheckingAccount.cs" />
+    <Compile Include="OOP\Inheritance\SavingAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\ReflectionClass.cs" />

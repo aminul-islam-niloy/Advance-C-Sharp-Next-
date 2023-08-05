@@ -5,11 +5,13 @@ using Advance_C_.Generic;
 using Advance_C_.Object_Initializer;
 using Advance_C_.OOP.cardinality_constraints;
 using Advance_C_.OOP.Class_and_Object;
+using Advance_C_.OOP.Inheritance;
 using Advance_C_.Static;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
 
 namespace Advance_C_
@@ -165,7 +167,55 @@ namespace Advance_C_
             //    Console.WriteLine(coursesListPrint.GetCourseInfo() + " \n");
             //}
 
-           Console.WriteLine(department1.GetCourseInfo());   
+          // Console.WriteLine(department1.GetCourseInfo());   
+
+
+// Inheritance in c#
+
+            BankAccount bankAccount = new BankAccount();
+
+
+
+            SavingAccount savingsAccount = new SavingAccount();
+            savingsAccount.Interestamount = 500;
+            savingsAccount.AccountNo = "sv 001";
+            savingsAccount.CustomerName = "Amin";
+            savingsAccount.Deposit(1000);
+            savingsAccount.Withdraw(500);
+       
+            double SavinfsBalance= savingsAccount.Balance;
+
+          //  Console.WriteLine( "Savings Account Balance is "+ SavinfsBalance);
+
+            CheckingAccount checkingAccount = new CheckingAccount();
+
+            checkingAccount.ServiceCharge = 1000;
+            checkingAccount.CustomerName = "Niloy";
+            checkingAccount.AccountNo = "ck 001";
+            checkingAccount.Deposit(2000);
+            checkingAccount.Withdraw(400);
+
+            double ChackingBalance = checkingAccount.Balance;
+
+            // Console.WriteLine("Chacking Account Balance is " + ChackingBalance);
+
+            // we can up casting and downcasting  as like
+            // and we can access that value
+            // bank account or base class reference to child class
+            //we can take all child class reference 
+
+            //downcasting
+            BankAccount b1 = new SavingAccount();
+            // but we may not get access of  all method.
+            // to eleminate this problem we can use 
+
+
+            BankAccount bank1 = savingsAccount;
+            //here savingsAccount is the object of SavingsAccount class
+
+            SavingAccount savings =(SavingAccount) bank1;
+           // up casting
+
 
 
 

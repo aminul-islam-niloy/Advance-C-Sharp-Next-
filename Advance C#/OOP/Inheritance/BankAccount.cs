@@ -12,8 +12,7 @@ namespace Advance_C_.OOP.Inheritance
         public string CustomerName { get; set;}
         public double Balance { get; private set; } 
 
-        public double ServiceCharge { get; set; }   
-        public  double  Interestamount { get; set; }
+
 
         public string Deposit(double amount)
         {
