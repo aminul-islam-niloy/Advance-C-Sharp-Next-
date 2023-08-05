@@ -1,6 +1,6 @@
 # Advance-C-Sharp-Next 
 
-![Repository Banner]([https://example.com/path/to/banner-image.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theengineeringprojects.com%2F2021%2F11%2Fdata-structures-in-c.html&psig=AOvVaw3z7vfKix_YoOhqf-Pqof4P&ust=1691327215337000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCy8IDLxYADFQAAAAAdAAAAABAK))
+![Repository Banner](https://www.wikitechy.com/technology/wp-content/uploads/2020/07/csharp-tutorial.png)
 
 ## Description
 
@@ -15,7 +15,7 @@ This repository contains a Advance c# tutorial practice code. It aims to provide
 - [Extension](#Extension)
 - [Reflection](#Reflection)
 - [Lambda Expressions ](#Lambda)
--  
+   
 
 ## Getting Started
 
