@@ -8,7 +8,7 @@ This repository contains a Advance c# tutorial practice code. It aims to provide
 
 ## Table of Contents
 
-- [https://github.com/aminul-islam-niloy/Advance-C-Sharp-Next-/tree/master/Advance%20C%23/OOP](#OOP)
+- [OOP](#OOP)
 - [Excecption handling](#Excecption)
 - [Generics](#Generics)
 - [Delegates](#Delegates)
