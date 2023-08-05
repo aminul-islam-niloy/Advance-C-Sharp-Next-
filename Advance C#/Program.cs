@@ -6,6 +6,7 @@ using Advance_C_.Object_Initializer;
 using Advance_C_.OOP.cardinality_constraints;
 using Advance_C_.OOP.Class_and_Object;
 using Advance_C_.OOP.Inheritance;
+using Advance_C_.OOP.InterfaceExample;
 using Advance_C_.Static;
 using System;
 using System.Collections.Generic;
@@ -230,61 +231,63 @@ namespace Advance_C_
           
             DateTime date = DateTime.Now;
 
-// code so that a method can't permit to override. 
+            // code so that a method can't permit to override. 
 
-        //    public class BaseClass
-        //{
-        //    public virtual void MethodToBeOverridden()
-        //    {
-        //        // Some implementation
-        //    }
+            //    public class BaseClass
+            //{
+            //    public virtual void MethodToBeOverridden()
+            //    {
+            //        // Some implementation
+            //    }
 
-        //    public sealed virtual void SealedMethod()
-        //    {
-        //        // Some implementation
-        //    }
-        //}
+            //    public sealed virtual void SealedMethod()
+            //    {
+            //        // Some implementation
+            //    }
+            //}
 
-        //public class DerivedClass : BaseClass
-        //{
-        //    // This will cause a compilation error since the SealedMethod is sealed and cannot be overridden.
-        //    // public override void SealedMethod() 
-        //    // {
-        //    //     // Some other implementation
-        //    // }
+            //public class DerivedClass : BaseClass
+            //{
+            //    // This will cause a compilation error since the SealedMethod is sealed and cannot be overridden.
+            //    // public override void SealedMethod() 
+            //    // {
+            //    //     // Some other implementation
+            //    // }
 
-        //    public override void MethodToBeOverridden()
-        //    {
-        //        // Some implementation specific to the derived class.
-        //    }
-        //}
-
-
-        //   savingsAccount.Transfer("", "", 3546, date);
-
-        //Console.WriteLine( savingsAccount.Withdraw(5000000000));
-
-        // double SavinfsBalance= savingsAccount.Balance;
-
-        // Console.WriteLine( "Savings Account Balance is "+ SavinfsBalance);
+            //    public override void MethodToBeOverridden()
+            //    {
+            //        // Some implementation specific to the derived class.
+            //    }
+            //}
 
 
+            //   savingsAccount.Transfer("", "", 3546, date);
 
-        //CheckingAccount checkingAccount = new CheckingAccount("987654","ajij",7777);
+            //Console.WriteLine( savingsAccount.Withdraw(5000000000));
 
-        //    checkingAccount.ServiceCharge = 1000;
-        //    checkingAccount.CustomerName = "Niloy";
-        //    checkingAccount.AccountNo = "ck 001";
-        //    checkingAccount.Deposit(2000);
-        //    checkingAccount.Withdraw(990);
+            // double SavinfsBalance= savingsAccount.Balance;
 
-        //    checkingAccount.TR("", 8765);
+            // Console.WriteLine( "Savings Account Balance is "+ SavinfsBalance);
+
+
+
+            //CheckingAccount checkingAccount = new CheckingAccount("987654", "ajij", 7777);
+
+            //checkingAccount.ServiceCharge = 1000;
+            //checkingAccount.CustomerName = "Niloy";
+            //checkingAccount.AccountNo = "ck 001";
+            //checkingAccount.Deposit(2000);
+            //checkingAccount.Withdraw(990);
+
+            //checkingAccount.Transfer(" ", " ", 8765);
+
+            //    checkingAccount.TR("", 8765);
 
             //  double ChackingBalance = checkingAccount.Balance;
 
             // Console.WriteLine("Chacking Account Balance is " + ChackingBalance);
 
-//run time polymorphism
+            //run time polymorphism
 
             //BankAccount bankAccount1 = new BankAccount();
             //bankAccount.AccountNo = "1111 ";
@@ -302,10 +305,25 @@ namespace Advance_C_
             //}
 
 
-// abstruct class and method.
-//1 rules.  don't contain body
-//2. reules  class must be abstruct
-//3. rules other method  can be non abstruct
+            // abstruct class and method.
+            //1 rules.  don't contain body
+            //2. reules  class must be abstruct
+            //3. rules other method  can be non abstruct
+
+
+            // interface
+
+            StudentInterface studentInterface = new StudentInterface();
+
+            studentInterface.StudentName = "Askfhg";
+            studentInterface.Registration = "9876543jg";
+
+
+            DepartmentInterface departmentInterface = new DepartmentInterface();
+            departmentInterface.DeptCode = "435436fgfg";
+
+
+            CourseInterface courseInterface = new CourseInterface();
 
 
 

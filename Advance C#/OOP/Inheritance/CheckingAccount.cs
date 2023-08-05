@@ -33,11 +33,9 @@ namespace Advance_C_.OOP.Inheritance
             return "Insufficient balance";
         }
 
-        public void TR( string to, double amount)
+        public override void Transfer(string from, string to, double amount)
         {
-
-
+           
         }
-
     }
 }

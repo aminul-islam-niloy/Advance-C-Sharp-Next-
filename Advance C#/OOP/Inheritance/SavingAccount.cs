@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Advance_C_.OOP.Inheritance
 {
-    public class SavingAccount:BankAccount
+    public  class SavingAccount:BankAccount
     {
 
      
@@ -28,6 +28,11 @@ namespace Advance_C_.OOP.Inheritance
               return base.Withdraw(amount);
             }
             return "Insufficient balance";
+        }
+
+        public override void Transfer(string from, string to, double amount)
+        {
+          
         }
 
         //public override void Transfer(string from, string to, double amount)

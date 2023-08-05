@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Advance_C_.OOP.Inheritance
 {
-    public  class BankAccount
+    public abstract  class BankAccount
     {
         public string  AccountNo { get; set; }
         public string CustomerName { get; set;}
@@ -40,12 +40,8 @@ namespace Advance_C_.OOP.Inheritance
 
         }
 
-        public virtual void Transfer(string from, string to, double amount)
-        {
-
-
-
-        }
+        public abstract void Transfer(string from, string to, double amount);
+       
 
     }
 }
