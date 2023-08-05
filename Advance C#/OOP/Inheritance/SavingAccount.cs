@@ -13,6 +13,14 @@ namespace Advance_C_.OOP.Inheritance
      
         public double Interestamount { get; set; }
 
+
+        public SavingAccount(string accountNO, string customerName, double interestamount):base(accountNO,customerName)
+        {
+          
+            Interestamount = interestamount;
+        }
+       
+
         public override string Withdraw(double amount)
         {
           if(Balance >= amount) 
