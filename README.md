@@ -1,6 +1,6 @@
 # Repository Name
 
-![Repository Banner]([https://example.com/path/to/banner-image.jpg](https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=600/api/page/5255443377553408/image/download/6451781821792256))
+![Repository Banner]([https:C:\Users\niloy\Documents\Github\Project\C#))
 
 ## Description
 
