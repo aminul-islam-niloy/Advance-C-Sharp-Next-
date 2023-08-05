@@ -40,7 +40,12 @@ namespace Advance_C_.OOP.Inheritance
 
         }
 
+        public virtual void Transfer(string from, string to, double amount)
+        {
 
+
+
+        }
 
     }
 }

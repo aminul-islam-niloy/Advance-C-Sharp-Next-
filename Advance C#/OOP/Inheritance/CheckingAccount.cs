@@ -32,5 +32,12 @@ namespace Advance_C_.OOP.Inheritance
             }
             return "Insufficient balance";
         }
+
+        public void TR( string to, double amount)
+        {
+
+
+        }
+
     }
 }

@@ -29,5 +29,20 @@ namespace Advance_C_.OOP.Inheritance
             }
             return "Insufficient balance";
         }
+
+        //public override void Transfer(string from, string to, double amount)
+        //{
+        //    base.Transfer(from, to, amount);
+
+        //}
+
+
+
+
+
+
+
+
+
     }
 }

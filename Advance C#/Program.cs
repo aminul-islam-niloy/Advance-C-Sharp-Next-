@@ -172,7 +172,7 @@ namespace Advance_C_
 
 // Inheritance in c#
 
-            BankAccount bankAccount = new BankAccount();
+         //   BankAccount bankAccount = new BankAccount();
 
 
 
@@ -222,29 +222,63 @@ namespace Advance_C_
 
 
 
-            SavingAccount savingsAccount = new SavingAccount("ICE 987654", "Savings ajij", 7777.888);
-            savingsAccount.Interestamount = 500;
-            savingsAccount.AccountNo = "sv 001";
-            savingsAccount.CustomerName = "Amin";
-            savingsAccount.Deposit(1000);
+            //SavingAccount savingsAccount = new SavingAccount("ICE 987654", "Savings ajij", 7777.888);
+            //savingsAccount.Interestamount = 500;
+            //savingsAccount.AccountNo = "sv 001";
+            //savingsAccount.CustomerName = "Amin";
+            //savingsAccount.Deposit(1000);
+          
+            DateTime date = DateTime.Now;
 
-            //Console.WriteLine( savingsAccount.Withdraw(5000000000));
+// code so that a method can't permit to override. 
 
-            // double SavinfsBalance= savingsAccount.Balance;
+        //    public class BaseClass
+        //{
+        //    public virtual void MethodToBeOverridden()
+        //    {
+        //        // Some implementation
+        //    }
 
-            // Console.WriteLine( "Savings Account Balance is "+ SavinfsBalance);
+        //    public sealed virtual void SealedMethod()
+        //    {
+        //        // Some implementation
+        //    }
+        //}
+
+        //public class DerivedClass : BaseClass
+        //{
+        //    // This will cause a compilation error since the SealedMethod is sealed and cannot be overridden.
+        //    // public override void SealedMethod() 
+        //    // {
+        //    //     // Some other implementation
+        //    // }
+
+        //    public override void MethodToBeOverridden()
+        //    {
+        //        // Some implementation specific to the derived class.
+        //    }
+        //}
+
+
+        //   savingsAccount.Transfer("", "", 3546, date);
+
+        //Console.WriteLine( savingsAccount.Withdraw(5000000000));
+
+        // double SavinfsBalance= savingsAccount.Balance;
+
+        // Console.WriteLine( "Savings Account Balance is "+ SavinfsBalance);
 
 
 
-            CheckingAccount checkingAccount = new CheckingAccount("987654","ajij",7777);
+        //CheckingAccount checkingAccount = new CheckingAccount("987654","ajij",7777);
 
-            checkingAccount.ServiceCharge = 1000;
-            checkingAccount.CustomerName = "Niloy";
-            checkingAccount.AccountNo = "ck 001";
-            checkingAccount.Deposit(2000);
-            checkingAccount.Withdraw(990);
+        //    checkingAccount.ServiceCharge = 1000;
+        //    checkingAccount.CustomerName = "Niloy";
+        //    checkingAccount.AccountNo = "ck 001";
+        //    checkingAccount.Deposit(2000);
+        //    checkingAccount.Withdraw(990);
 
-
+        //    checkingAccount.TR("", 8765);
 
             //  double ChackingBalance = checkingAccount.Balance;
 
@@ -252,22 +286,26 @@ namespace Advance_C_
 
 //run time polymorphism
 
-            BankAccount bankAccount1 = new BankAccount();
-            bankAccount.AccountNo = "1111 ";
-            bankAccount.CustomerName = "Aminul islam";
-            bankAccount.Deposit(10000);
+            //BankAccount bankAccount1 = new BankAccount();
+            //bankAccount.AccountNo = "1111 ";
+            //bankAccount.CustomerName = "Aminul islam";
+            //bankAccount.Deposit(10000);
 
-            List<BankAccount> bankAccounts = new List<BankAccount>();
-            bankAccounts.Add(bankAccount1);
-            bankAccounts.Add(checkingAccount);
-            bankAccounts.Add(savingsAccount);
+            //List<BankAccount> bankAccounts = new List<BankAccount>();
+            //bankAccounts.Add(bankAccount1);
+            //bankAccounts.Add(checkingAccount);
+            //bankAccounts.Add(savingsAccount);
 
-            foreach (BankAccount accountList in bankAccounts)
-            {
-                accountList.Withdraw(1000);
-            }
+            //foreach (BankAccount accountList in bankAccounts)
+            //{
+            //    accountList.Withdraw(1000);
+            //}
 
 
+// abstruct class and method.
+//1 rules.  don't contain body
+//2. reules  class must be abstruct
+//3. rules other method  can be non abstruct
 
 
 
