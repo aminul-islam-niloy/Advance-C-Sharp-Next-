@@ -1,6 +1,6 @@
 # Advance-C-Sharp-Next 
 
-![Repository Banner]("C:\Users\niloy\Documents\Github\Project\C#\1.jpg")
+![Repository Banner](C:\Users\niloy\Documents\Github\Project\C#\1.jpg)
 
 ## Description
 
