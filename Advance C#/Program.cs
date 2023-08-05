@@ -250,6 +250,23 @@ namespace Advance_C_
 
             // Console.WriteLine("Chacking Account Balance is " + ChackingBalance);
 
+//run time polymorphism
+
+            BankAccount bankAccount1 = new BankAccount();
+            bankAccount.AccountNo = "1111 ";
+            bankAccount.CustomerName = "Aminul islam";
+            bankAccount.Deposit(10000);
+
+            List<BankAccount> bankAccounts = new List<BankAccount>();
+            bankAccounts.Add(bankAccount1);
+            bankAccounts.Add(checkingAccount);
+            bankAccounts.Add(savingsAccount);
+
+            foreach (BankAccount accountList in bankAccounts)
+            {
+                accountList.Withdraw(1000);
+            }
+
 
 
 
