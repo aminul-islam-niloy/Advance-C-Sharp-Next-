@@ -1,6 +1,6 @@
-# Repository Name
+# Advance-C-Sharp-Next 
 
-![Repository Banner]([https:C:\Users\niloy\Documents\Github\Project\C#))
+![Repository Banner]("C:\Users\niloy\Documents\Github\Project\C#\1.jpg")
 
 ## Description
 
