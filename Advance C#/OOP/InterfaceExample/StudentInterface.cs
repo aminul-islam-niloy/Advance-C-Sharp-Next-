@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Advance_C_.OOP.InterfaceExample
 {
-    internal class StudentInterface:IInfornation
+    internal class StudentInterface:IInfornation,IPrintere
     {
         public string Registration { get; set; }
         public string StudentName { get; set; }
@@ -18,7 +18,14 @@ namespace Advance_C_.OOP.InterfaceExample
             return Registration + " " + StudentName+ " " + RollNumber;
         }
 
-       
+        public void PrintInformation()
+        {
+           
+        }
 
+        public string SetIpAddress(string ipAddress)
+        {
+          
+        }
     }
 }

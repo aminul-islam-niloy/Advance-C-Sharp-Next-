@@ -69,6 +69,7 @@
     <Compile Include="OOP\InterfaceExample\CourseInterface.cs" />
     <Compile Include="OOP\InterfaceExample\DepartmentInterface.cs" />
     <Compile Include="OOP\InterfaceExample\IInfornation.cs" />
+    <Compile Include="OOP\InterfaceExample\IPrintere.cs" />
     <Compile Include="OOP\InterfaceExample\StudentInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

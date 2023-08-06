@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Advance_C_.OOP.InterfaceExample
 {
-    internal class DepartmentInterface:IInfornation
+    internal class DepartmentInterface:IInfornation,IPrintere
     {
 
         public DepartmentInterface() 
@@ -28,6 +28,16 @@ namespace Advance_C_.OOP.InterfaceExample
         public string GetBasicInformaion()
         {
             return DepartmentName + " " + DeptCode;
+        }
+
+        public void PrintInformation()
+        {
+          
+        }
+
+        public string SetIpAddress(string ipAddress)
+        {
+            throw new NotImplementedException();
         }
     }
 }
