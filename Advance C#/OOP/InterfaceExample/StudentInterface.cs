@@ -20,12 +20,12 @@ namespace Advance_C_.OOP.InterfaceExample
 
         public void PrintInformation()
         {
-           
+            throw new NotImplementedException();
         }
 
         public string SetIpAddress(string ipAddress)
         {
-          
+            throw new NotImplementedException();
         }
     }
 }
