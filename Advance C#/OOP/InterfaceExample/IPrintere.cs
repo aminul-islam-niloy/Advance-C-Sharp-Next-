@@ -9,6 +9,9 @@ namespace Advance_C_.OOP.InterfaceExample
      interface IPrintere
     {
         string SetIpAddress(string ipAddress);
+
         void PrintInformation();
+
+        string GetBasicInformaion();
     }
 }

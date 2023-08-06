@@ -321,6 +321,16 @@ namespace Advance_C_
             string SudInfo= studentInterface.GetBasicInformaion();
 
 
+// if we want to use explicit interface we have to use
+// string IInfornation.GetBasicInformaion()
+//  if we want to call this explicit interface and get this value we
+//  have to create reference object  otherwise it call normal interface method
+
+
+
+            IInfornation Iinfo = studentInterface;
+            Iinfo.GetBasicInformaion();
+
 
             DepartmentInterface departmentInterface = new DepartmentInterface();
             departmentInterface.DeptCode = "435436fgfg";

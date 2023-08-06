@@ -13,7 +13,7 @@ namespace Advance_C_.OOP.InterfaceExample
         public string Email { get; set; }  
         public string RollNumber { get; set; }
 
-        public string GetBasicInformaion()
+         string IInfornation.GetBasicInformaion()
         {
             return Registration + " " + StudentName+ " " + RollNumber;
         }
@@ -26,6 +26,11 @@ namespace Advance_C_.OOP.InterfaceExample
         public string SetIpAddress(string ipAddress)
         {
             throw new NotImplementedException();
+        }
+
+        public string GetBasicInformaion()
+        {
+            return Registration + " " + StudentName + " " + RollNumber;
         }
     }
 }
