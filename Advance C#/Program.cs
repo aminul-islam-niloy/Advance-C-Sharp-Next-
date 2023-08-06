@@ -318,14 +318,20 @@ namespace Advance_C_
             studentInterface.StudentName = "Askfhg";
             studentInterface.Registration = "9876543jg";
 
+            string SudInfo= studentInterface.GetBasicInformaion();
+
+
 
             DepartmentInterface departmentInterface = new DepartmentInterface();
             departmentInterface.DeptCode = "435436fgfg";
+            
+            string DeptInfo= departmentInterface.GetBasicInformaion();
 
 
             CourseInterface courseInterface = new CourseInterface();
+            string CourseBasicInfo= courseInterface.GetBasicInformaion();
 
-
+            //List<string> courseINfo = courseInterface.Unknown();
 
             //Object initializer in c# 
             Studentinit student = new Studentinit()
