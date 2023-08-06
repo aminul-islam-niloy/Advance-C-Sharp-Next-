@@ -332,14 +332,14 @@ namespace Advance_C_
             Iinfo.GetBasicInformaion();
 
 
-            DepartmentInterface departmentInterface = new DepartmentInterface();
-            departmentInterface.DeptCode = "435436fgfg";
+            //DepartmentInterface departmentInterface = new DepartmentInterface();
+            //departmentInterface.DeptCode = "435436fgfg";
             
-            string DeptInfo= departmentInterface.GetBasicInformaion();
+            //string DeptInfo= departmentInterface.GetBasicInformaion();
 
 
-            CourseInterface courseInterface = new CourseInterface();
-            string CourseBasicInfo= courseInterface.GetBasicInformaion();
+            //CourseInterface courseInterface = new CourseInterface();
+            //string CourseBasicInfo= courseInterface.GetBasicInformaion();
 
             //List<string> courseINfo = courseInterface.Unknown();
 

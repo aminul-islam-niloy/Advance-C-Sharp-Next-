@@ -16,8 +16,8 @@ namespace Advance_C_.Reflection
 
 
 
-        //// Reflection 
-
+        //// Reflection  is view   
+        // it used to view  object and method of an unknown class
         //var StudentClassInfo = typeof(Student);
 
         //string assemblyName = StudentClassInfo.Assembly.FullName;
