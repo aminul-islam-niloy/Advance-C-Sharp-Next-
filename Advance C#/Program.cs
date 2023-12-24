@@ -771,11 +771,34 @@ namespace Advance_C_
         //in params, parameter is not spacified
 
             int a = Params.add(10, 20, 30, 40, 50, 60);
-            Console.WriteLine("Sum of values inn param: "+a);
+            // Console.WriteLine("Sum of values inn param: "+a);
 
 
 
+            //Enum
+          //  Console.WriteLine("Enter 0 or 1 to know the " +
+                    //   "state of electric switch!");
 
+          //  byte i = Convert.ToByte(Console.ReadLine());
+
+           /* if (i == (byte)button.OFF)
+            {
+
+                Console.WriteLine("The electric switch is Off");
+            }
+
+            else if (i == (byte)button.ON)
+            {
+                Console.WriteLine("The electric switch is ON");
+            }
+
+            else
+            {
+                Console.WriteLine("byte cannot hold such" +
+                                          " large value");
+            } */
+
+            //  Console.WriteLine("Month number is " + (int)Enum.month.february);
             Console.ReadKey();
 
              

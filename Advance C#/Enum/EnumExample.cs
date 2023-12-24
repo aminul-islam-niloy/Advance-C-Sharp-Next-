@@ -16,6 +16,23 @@ namespace Advance_C_.Enum
         Recived
 
     }
+
+    enum month
+    {
+        january,
+        february,
+        march,
+        april,
+        may,
+        june,
+        july
+    }
+
+    enum button : byte
+    {
+        OFF,
+        ON
+    }
 }
 
 
