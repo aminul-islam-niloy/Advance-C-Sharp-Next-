@@ -53,6 +53,7 @@
     <Compile Include="Exception Handllilng\DivisionNumber.cs" />
     <Compile Include="ExtrnsionMethod\ExtensionClass.cs" />
     <Compile Include="ExtrnsionMethod\ExtensionMethod.cs" />
+    <Compile Include="Fundamentals\Nullable.cs" />
     <Compile Include="Fundamentals\Params.cs" />
     <Compile Include="GenericExample.cs" />
     <Compile Include="Generic\Generic Delegate.cs" />

@@ -765,6 +765,22 @@ namespace Advance_C_
             //     Console.WriteLine(getAllresult.Name);
             // }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
              
         //c# Fundamentals
         //Params
@@ -776,33 +792,77 @@ namespace Advance_C_
 
 
             //Enum
-          //  Console.WriteLine("Enter 0 or 1 to know the " +
-                    //   "state of electric switch!");
+            //  Console.WriteLine("Enter 0 or 1 to know the " +
+            //   "state of electric switch!");
 
-          //  byte i = Convert.ToByte(Console.ReadLine());
+            //  byte i = Convert.ToByte(Console.ReadLine());
 
-           /* if (i == (byte)button.OFF)
-            {
+            /* if (i == (byte)button.OFF)
+             {
 
-                Console.WriteLine("The electric switch is Off");
-            }
+                 Console.WriteLine("The electric switch is Off");
+             }
 
-            else if (i == (byte)button.ON)
-            {
-                Console.WriteLine("The electric switch is ON");
-            }
+             else if (i == (byte)button.ON)
+             {
+                 Console.WriteLine("The electric switch is ON");
+             }
 
-            else
-            {
-                Console.WriteLine("byte cannot hold such" +
-                                          " large value");
-            } */
+             else
+             {
+                 Console.WriteLine("byte cannot hold such" +
+                                           " large value");
+             } */
 
             //  Console.WriteLine("Month number is " + (int)Enum.month.february);
+
+
+
+
+
+
+
+
+
+
+            //Nullable 
+
+            //  nullable.DefineNullable();
+            nullable.TernaryNullable();
+
+
+
+
+
+
             Console.ReadKey();
 
              
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         public static bool IsChackName(string name)
         {
