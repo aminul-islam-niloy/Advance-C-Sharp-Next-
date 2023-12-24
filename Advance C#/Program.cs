@@ -1,6 +1,7 @@
 ﻿using Advance_C_.Deligates;
 using Advance_C_.Enum;
 using Advance_C_.ExtrnsionMethod;
+using Advance_C_.Fundamentals;
 using Advance_C_.Generic;
 using Advance_C_.Object_Initializer;
 using Advance_C_.OOP.cardinality_constraints;
@@ -13,7 +14,9 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Advance_C_
 {
@@ -733,34 +736,42 @@ namespace Advance_C_
            var  StudentClassInfo  = typeof(Studentinit);
 
             string assemblyName = StudentClassInfo.Assembly.FullName;
-           
-           // Console.Write(assemblyName);
-           
-           // var methods= StudentClassInfo.GetMethods();
 
-           // foreach ( var method in methods)
-           // {
-           //    // Console.WriteLine("Return type is : "+method.ReturnType+ " Method name is: "+ method.Name);
-           // }
+            // Console.Write(assemblyName);
 
-           //// Console.WriteLine("\n");
+            // var methods= StudentClassInfo.GetMethods();
 
-           // var GetAllProperties = StudentClassInfo.GetProperties(System.Reflection.BindingFlags.NonPublic|
-           //     System.Reflection.BindingFlags.Instance);
+            // foreach ( var method in methods)
+            // {
+            //    // Console.WriteLine("Return type is : "+method.ReturnType+ " Method name is: "+ method.Name);
+            // }
 
-           // foreach (var getAllresult in GetAllProperties)
-           // {
-           //     Console.WriteLine(getAllresult.Name);
-           // }
+            //// Console.WriteLine("\n");
 
-           // Console.WriteLine("\n");
+            // var GetAllProperties = StudentClassInfo.GetProperties(System.Reflection.BindingFlags.NonPublic|
+            //     System.Reflection.BindingFlags.Instance);
 
-           // var GetProperties = StudentClassInfo.GetProperties();
+            // foreach (var getAllresult in GetAllProperties)
+            // {
+            //     Console.WriteLine(getAllresult.Name);
+            // }
 
-           // foreach (var getAllresult in GetProperties)
-           // {
-           //     Console.WriteLine(getAllresult.Name);
-           // }
+            // Console.WriteLine("\n");
+
+            // var GetProperties = StudentClassInfo.GetProperties();
+
+            // foreach (var getAllresult in GetProperties)
+            // {
+            //     Console.WriteLine(getAllresult.Name);
+            // }
+
+             
+        //c# Fundamentals
+        //Params
+        //in params, parameter is not spacified
+
+            int a = Params.add(10, 20, 30, 40, 50, 60);
+            Console.WriteLine("Sum of values inn param: "+a);
 
 
 
