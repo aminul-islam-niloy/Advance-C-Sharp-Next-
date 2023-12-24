@@ -55,6 +55,7 @@
     <Compile Include="ExtrnsionMethod\ExtensionMethod.cs" />
     <Compile Include="Fundamentals\Nullable.cs" />
     <Compile Include="Fundamentals\Params.cs" />
+    <Compile Include="Fundamentals\StructureImp.cs" />
     <Compile Include="GenericExample.cs" />
     <Compile Include="Generic\Generic Delegate.cs" />
     <Compile Include="Generic\GenericExample.cs" />

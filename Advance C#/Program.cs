@@ -828,10 +828,18 @@ namespace Advance_C_
             //Nullable 
 
             //  nullable.DefineNullable();
-            nullable.TernaryNullable();
+            // nullable.TernaryNullable();
 
 
+            //structure 
 
+            //PersonStruct personStruct = new PersonStruct();
+            //personStruct.id = 123456;
+            //personStruct.name = "Niloy";
+            //personStruct.age = 24;
+            //personStruct.Address = "Dhaka";
+
+            //Console.WriteLine(personStruct.name);
 
 
 
