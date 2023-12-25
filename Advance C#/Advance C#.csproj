@@ -60,6 +60,8 @@
     <Compile Include="Generic\Generic Delegate.cs" />
     <Compile Include="Generic\GenericExample.cs" />
     <Compile Include="Object Initializer\Studentinit.cs" />
+    <Compile Include="OOP\Abstract\Shape.cs" />
+    <Compile Include="OOP\Abstract\Square.cs" />
     <Compile Include="OOP\cardinality constraints\Course.cs" />
     <Compile Include="OOP\cardinality constraints\Department.cs" />
     <Compile Include="OOP\Class and Object\Address.cs" />

@@ -4,6 +4,7 @@ using Advance_C_.ExtrnsionMethod;
 using Advance_C_.Fundamentals;
 using Advance_C_.Generic;
 using Advance_C_.Object_Initializer;
+using Advance_C_.OOP.Abstract;
 using Advance_C_.OOP.cardinality_constraints;
 using Advance_C_.OOP.Class_and_Object;
 using Advance_C_.OOP.Inheritance;
@@ -308,20 +309,27 @@ namespace Advance_C_
             //}
 
 
-            // abstruct class and method.
+// abstruct class and method.
             //1 rules.  don't contain body
             //2. reules  class must be abstruct
             //3. rules other method  can be non abstruct
 
+            Shape shape = new Square(4);
+            double result = shape.area();
+            Console.WriteLine(result);
 
-            // interface
 
-            StudentInterface studentInterface = new StudentInterface();
 
-            studentInterface.StudentName = "Askfhg";
-            studentInterface.Registration = "9876543jg";
+ // interface
 
-            string SudInfo= studentInterface.GetBasicInformaion();
+            //StudentInterface studentInterface = new StudentInterface();
+
+            //studentInterface.StudentName = "Askfhg";
+            //studentInterface.Registration = "9876543jg";
+
+            //string SudInfo= studentInterface.GetBasicInformaion();
+
+
 
 
 // if we want to use explicit interface we have to use
@@ -331,8 +339,8 @@ namespace Advance_C_
 
 
 
-            IInfornation Iinfo = studentInterface;
-            Iinfo.GetBasicInformaion();
+            //IInfornation Iinfo = studentInterface;
+            //Iinfo.GetBasicInformaion();
 
 
             //DepartmentInterface departmentInterface = new DepartmentInterface();
