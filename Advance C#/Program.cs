@@ -9,6 +9,7 @@ using Advance_C_.OOP.cardinality_constraints;
 using Advance_C_.OOP.Class_and_Object;
 using Advance_C_.OOP.Inheritance;
 using Advance_C_.OOP.InterfaceExample;
+using Advance_C_.OOP.Polymmorphsim.Compile_TIme;
 using Advance_C_.Static;
 using System;
 using System.Collections.Generic;
@@ -291,7 +292,16 @@ namespace Advance_C_
 
             // Console.WriteLine("Chacking Account Balance is " + ChackingBalance);
 
-            //run time polymorphism
+//Complile time polymorphism
+            //calculatorPoly calcu = new calculatorPoly();
+            //int intSum= calcu.add(10, 20);
+            //double doubleSum = calcu.add(10.3, 20.5);
+
+           /// Console.WriteLine("int sum is: "+ intSum + "Double sum is : "+ doubleSum);
+
+
+
+//run time polymorphism
 
             //BankAccount bankAccount1 = new BankAccount();
             //bankAccount.AccountNo = "1111 ";

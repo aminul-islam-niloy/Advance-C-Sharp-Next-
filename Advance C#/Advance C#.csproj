@@ -76,6 +76,7 @@
     <Compile Include="OOP\InterfaceExample\IInfornation.cs" />
     <Compile Include="OOP\InterfaceExample\IPrintere.cs" />
     <Compile Include="OOP\InterfaceExample\StudentInterface.cs" />
+    <Compile Include="OOP\Polymmorphsim\Compile TIme\Calculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\ReflectionClass.cs" />
@@ -84,6 +85,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="OOP\Polymmorphsim\Run Time\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
