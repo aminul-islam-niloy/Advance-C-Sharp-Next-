@@ -77,6 +77,9 @@
     <Compile Include="OOP\InterfaceExample\IPrintere.cs" />
     <Compile Include="OOP\InterfaceExample\StudentInterface.cs" />
     <Compile Include="OOP\Polymmorphsim\Compile TIme\Calculator.cs" />
+    <Compile Include="OOP\Polymmorphsim\Run Time\Circle.cs" />
+    <Compile Include="OOP\Polymmorphsim\Run Time\Shape.cs" />
+    <Compile Include="OOP\Polymmorphsim\Run Time\Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\ReflectionClass.cs" />
@@ -85,8 +88,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OOP\Polymmorphsim\Run Time\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

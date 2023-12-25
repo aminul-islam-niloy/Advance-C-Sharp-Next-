@@ -10,6 +10,7 @@ using Advance_C_.OOP.Class_and_Object;
 using Advance_C_.OOP.Inheritance;
 using Advance_C_.OOP.InterfaceExample;
 using Advance_C_.OOP.Polymmorphsim.Compile_TIme;
+using Advance_C_.OOP.Polymmorphsim.Run_Time;
 using Advance_C_.Static;
 using System;
 using System.Collections.Generic;
@@ -292,16 +293,22 @@ namespace Advance_C_
 
             // Console.WriteLine("Chacking Account Balance is " + ChackingBalance);
 
-//Complile time polymorphism
+            //Complile time polymorphism
             //calculatorPoly calcu = new calculatorPoly();
             //int intSum= calcu.add(10, 20);
             //double doubleSum = calcu.add(10.3, 20.5);
 
-           /// Console.WriteLine("int sum is: "+ intSum + "Double sum is : "+ doubleSum);
+            /// Console.WriteLine("int sum is: "+ intSum + "Double sum is : "+ doubleSum);
 
 
 
-//run time polymorphism
+            //run time polymorphism
+
+
+            Shape_Poly shape1 = new Circle();
+            shape1.Draw();
+            Shape_Poly shape2 = new Square_Poly();
+            shape2.Draw();
 
             //BankAccount bankAccount1 = new BankAccount();
             //bankAccount.AccountNo = "1111 ";
@@ -324,9 +331,9 @@ namespace Advance_C_
             //2. reules  class must be abstruct
             //3. rules other method  can be non abstruct
 
-            Shape shape = new Square(4);
-            double result = shape.area();
-            Console.WriteLine(result);
+            //Shape shape = new Square(4);
+            //double result = shape.area();
+          //  Console.WriteLine(result);
 
 
 
