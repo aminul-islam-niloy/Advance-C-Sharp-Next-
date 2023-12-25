@@ -874,12 +874,15 @@ namespace Advance_C_
             //  FileCreate_Read.CreateandRead();
             // CreateFile.CreteFile();
 
-            WriteToCVS.AddRecord("1234", "niloy", "24", "newTextDoc.txt");
+            // WriteToCVS.AddRecord("1234", "niloy", "24", "newTextDoc.txt");
 
+            //read form a file
 
+            //  WriteToCVS.ReadFromFile();
 
+            //  ReadingFile.ReadContentOfAFile("newTextDoc.txt");
 
-
+          //  WriteToCVS.AddTextInaFile();
 
 
 

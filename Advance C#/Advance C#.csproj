@@ -55,6 +55,8 @@
     <Compile Include="ExtrnsionMethod\ExtensionMethod.cs" />
     <Compile Include="File handling\CreateFile.cs" />
     <Compile Include="File handling\FileCreate_Read.cs" />
+    <Compile Include="File handling\FileExists.cs" />
+    <Compile Include="File handling\ReadingFile.cs" />
     <Compile Include="File handling\WriteToCVS.cs" />
     <Compile Include="Fundamentals\Nullable.cs" />
     <Compile Include="Fundamentals\Params.cs" />
