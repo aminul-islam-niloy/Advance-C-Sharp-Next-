@@ -53,10 +53,15 @@
     <Compile Include="Exception Handllilng\DivisionNumber.cs" />
     <Compile Include="ExtrnsionMethod\ExtensionClass.cs" />
     <Compile Include="ExtrnsionMethod\ExtensionMethod.cs" />
+    <Compile Include="File handling\CopyFileText.cs" />
     <Compile Include="File handling\CreateFile.cs" />
+    <Compile Include="File handling\Delete_File.cs" />
+    <Compile Include="File handling\EditText.cs" />
     <Compile Include="File handling\FileCreate_Read.cs" />
     <Compile Include="File handling\FileExists.cs" />
+    <Compile Include="File handling\MoveFile.cs" />
     <Compile Include="File handling\ReadingFile.cs" />
+    <Compile Include="File handling\Search_file_Text.cs" />
     <Compile Include="File handling\WriteToCVS.cs" />
     <Compile Include="Fundamentals\Nullable.cs" />
     <Compile Include="Fundamentals\Params.cs" />

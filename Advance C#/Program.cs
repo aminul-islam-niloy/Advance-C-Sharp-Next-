@@ -869,7 +869,7 @@ namespace Advance_C_
 
 
 
-            //File Handling i/o
+ //File Handling i/o
 
             //  FileCreate_Read.CreateandRead();
             // CreateFile.CreteFile();
@@ -882,10 +882,9 @@ namespace Advance_C_
 
             //  ReadingFile.ReadContentOfAFile("newTextDoc.txt");
 
-          //  WriteToCVS.AddTextInaFile();
+            //  WriteToCVS.AddTextInaFile();
 
-
-
+           // FileExists.CheckingFile("newTextDoc.txt");
 
 
 

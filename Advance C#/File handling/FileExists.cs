@@ -9,10 +9,8 @@ namespace Advance_C_.File_handling
 {
     internal class FileExists
     {
-        static void CheckingFile()
+       public static void CheckingFile(string filePath)
         {
-            string filePath = "example.txt";
-
             if (File.Exists(filePath))
             {
                 Console.WriteLine("File exists!");
