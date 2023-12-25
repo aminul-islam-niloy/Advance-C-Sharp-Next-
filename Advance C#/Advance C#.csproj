@@ -53,6 +53,9 @@
     <Compile Include="Exception Handllilng\DivisionNumber.cs" />
     <Compile Include="ExtrnsionMethod\ExtensionClass.cs" />
     <Compile Include="ExtrnsionMethod\ExtensionMethod.cs" />
+    <Compile Include="File handling\CreateFile.cs" />
+    <Compile Include="File handling\FileCreate_Read.cs" />
+    <Compile Include="File handling\WriteToCVS.cs" />
     <Compile Include="Fundamentals\Nullable.cs" />
     <Compile Include="Fundamentals\Params.cs" />
     <Compile Include="Fundamentals\StructureImp.cs" />
@@ -88,6 +91,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="File handling\newfile.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

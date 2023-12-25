@@ -1,6 +1,7 @@
 ﻿using Advance_C_.Deligates;
 using Advance_C_.Enum;
 using Advance_C_.ExtrnsionMethod;
+using Advance_C_.File_handling;
 using Advance_C_.Fundamentals;
 using Advance_C_.Generic;
 using Advance_C_.Object_Initializer;
@@ -302,13 +303,13 @@ namespace Advance_C_
 
 
 
-            //run time polymorphism
+//run time polymorphism
 
 
-            Shape_Poly shape1 = new Circle();
-            shape1.Draw();
-            Shape_Poly shape2 = new Square_Poly();
-            shape2.Draw();
+            //Shape_Poly shape1 = new Circle();
+            //shape1.Draw();
+            //Shape_Poly shape2 = new Square_Poly();
+            //shape2.Draw();
 
             //BankAccount bankAccount1 = new BankAccount();
             //bankAccount.AccountNo = "1111 ";
@@ -865,6 +866,26 @@ namespace Advance_C_
             //personStruct.Address = "Dhaka";
 
             //Console.WriteLine(personStruct.name);
+
+
+
+            //File Handling i/o
+
+            //  FileCreate_Read.CreateandRead();
+            // CreateFile.CreteFile();
+
+            WriteToCVS.AddRecord("1234", "niloy", "24", "newTextDoc.txt");
+
+
+
+
+
+
+
+
+
+
+
 
 
 
