@@ -628,10 +628,12 @@ namespace Advance_C_
 
 
 
- // Deligates : Declar, target method, invoke
-         // pass method through Method 
-         // even handling 
-         // call by method 
+            // Deligates : Declar, target method, invoke
+            // pass method through Method 
+            // even handling 
+            // call by method 
+
+            SingleDeligates.SingleDelegate();
 
         // we can attach more and more  same signature method in the delegate
 

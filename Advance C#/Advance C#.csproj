@@ -48,6 +48,7 @@
     <Compile Include="Deligates\DiffernetDelegate.cs" />
     <Compile Include="Deligates\MultiHandelerDelegate.cs" />
     <Compile Include="Deligates\SingleDelegateStudent.cs" />
+    <Compile Include="Deligates\SingleDeligates.cs" />
     <Compile Include="Dynamic\DynamicStudent.cs" />
     <Compile Include="Enum\EnumExample.cs" />
     <Compile Include="Exception Handllilng\DivisionNumber.cs" />
