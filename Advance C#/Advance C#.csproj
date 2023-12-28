@@ -64,9 +64,11 @@
     <Compile Include="File handling\ReadingFile.cs" />
     <Compile Include="File handling\Search_file_Text.cs" />
     <Compile Include="File handling\WriteToCVS.cs" />
+    <Compile Include="Fundamentals\ArrayList.cs" />
     <Compile Include="Fundamentals\ArrayListImplement.cs" />
     <Compile Include="Fundamentals\Nullable.cs" />
     <Compile Include="Fundamentals\Params.cs" />
+    <Compile Include="Fundamentals\StringOperation.cs" />
     <Compile Include="Fundamentals\StructureImp.cs" />
     <Compile Include="GenericExample.cs" />
     <Compile Include="Generic\Generic Delegate.cs" />

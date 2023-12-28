@@ -385,9 +385,9 @@ namespace Advance_C_
             //Console.WriteLine(name);
 
 
-            //ArrayList in c#
+//ArrayList in c#
 
-            ArrayListImplement.ArrayListInit();
+            //ArrayListImplement.ArrayListInit();
 
             //collection inintializer in c#
             Studentinit student1 = new Studentinit() { Id = 1, Name = "Amin", 
@@ -435,16 +435,19 @@ namespace Advance_C_
             //    Console.WriteLine(Student.Age + "\n");
             //}
 
+            //sting operation in #
+            // StringOperation.StringInit();
+            //StringOperation.CharactureInt();
+            StringOperation.StringFinding();
 
 
+                        // Dynamic type datatype in c#
 
-// Dynamic type datatype in c#
+                        // ExpandoObject is an important aspect in this section.
+                        // using this we can add new property without 
+                        // adding property
 
-         // ExpandoObject is an important aspect in this section.
-         // using this we can add new property without 
-         // adding property
-
-            dynamic variable1 = 1;
+                        dynamic variable1 = 1;
          //   Console.WriteLine(variable1.GetType());
                     variable1 = "This is me";
            /// Console.WriteLine(variable1.GetType());
