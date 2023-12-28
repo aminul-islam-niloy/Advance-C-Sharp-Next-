@@ -384,7 +384,12 @@ namespace Advance_C_
             //string name = student.Name;
             //Console.WriteLine(name);
 
-//collection inintializer in c#
+
+            //ArrayList in c#
+
+            ArrayListImplement.ArrayListInit();
+
+            //collection inintializer in c#
             Studentinit student1 = new Studentinit() { Id = 1, Name = "Amin", 
                                                        Address = "Dhaka", Age = 10 };
             Studentinit student2 = new Studentinit() { Id = 2, Name = "Akij", Address = "Dhaka", Age = 20 };
@@ -633,7 +638,7 @@ namespace Advance_C_
             // even handling 
             // call by method 
 
-            SingleDeligates.SingleDelegate();
+          //  SingleDeligates.SingleDelegate();
 
         // we can attach more and more  same signature method in the delegate
 
