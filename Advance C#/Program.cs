@@ -13,6 +13,7 @@ using Advance_C_.OOP.InterfaceExample;
 using Advance_C_.OOP.Polymmorphsim.Compile_TIme;
 using Advance_C_.OOP.Polymmorphsim.Run_Time;
 using Advance_C_.Static;
+using Advance_C_.Tuple;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -879,7 +880,7 @@ namespace Advance_C_
 
 
 
- //File Handling i/o
+            //File Handling i/o
 
             //  FileCreate_Read.CreateandRead();
             // CreateFile.CreteFile();
@@ -894,11 +895,13 @@ namespace Advance_C_
 
             //  WriteToCVS.AddTextInaFile();
 
-           // FileExists.CheckingFile("newTextDoc.txt");
+            // FileExists.CheckingFile("newTextDoc.txt");
 
 
 
+            //tuple and valuetuple
 
+            TupleCreate.TupleConstructure();
 
 
             Console.ReadKey();
