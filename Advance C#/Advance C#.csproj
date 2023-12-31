@@ -98,6 +98,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\ReflectionClass.cs" />
     <Compile Include="Static\Tranning.cs" />
+    <Compile Include="Threading\CreateMultiThread.cs" />
+    <Compile Include="Threading\Multithreading.cs" />
+    <Compile Include="Threading\SingleThreatedModel.cs" />
     <Compile Include="Tuple\TupleCreate.cs" />
   </ItemGroup>
   <ItemGroup>

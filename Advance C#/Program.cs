@@ -13,6 +13,7 @@ using Advance_C_.OOP.InterfaceExample;
 using Advance_C_.OOP.Polymmorphsim.Compile_TIme;
 using Advance_C_.OOP.Polymmorphsim.Run_Time;
 using Advance_C_.Static;
+using Advance_C_.Threading;
 using Advance_C_.Tuple;
 using System;
 using System.Collections.Generic;
@@ -439,7 +440,7 @@ namespace Advance_C_
             //sting operation in #
             // StringOperation.StringInit();
             //StringOperation.CharactureInt();
-            StringOperation.StringFinding();
+          //  StringOperation.StringFinding();
 
 
                         // Dynamic type datatype in c#
@@ -665,7 +666,7 @@ namespace Advance_C_
 
             // Console.WriteLine(resultsDeli);
 
-            deligateExample.Name = "Thus Harold";
+          //  deligateExample.Name = "Thus Harold";
 
 // Anonymus  Delegate and lembda expression 
 
@@ -901,7 +902,17 @@ namespace Advance_C_
 
             //tuple and valuetuple
 
-            TupleCreate.TupleConstructure();
+            //   TupleCreate.TupleConstructure();
+
+
+            //MultiThreading and it's implementatin
+
+            //CreateMultiThread.mainThread();
+
+            // CreateMultiThread.MainThreadPool();
+
+            // SingleThread.MainSingleThread();
+            Multithreading.MainMultithread();
 
 
             Console.ReadKey();
