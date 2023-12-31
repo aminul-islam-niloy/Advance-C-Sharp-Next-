@@ -37,8 +37,9 @@ namespace Advance_C_
         public delegate void PrintHandler<T,U>(T param, U status);
 
         // Func delegate init
-       // public delegate Tresult Func<in T, out  Tresult>(T param);
+        // public delegate Tresult Func<in T, out  Tresult>(T param);
 
+        [Obsolete]
         static void Main(string[] args)
         {
 
@@ -915,9 +916,11 @@ namespace Advance_C_
             //  Multithreading.MainMultithread();
 
             // TypesOfThread.Foreground();
-            TypesOfThread.MainBackground();
+            //TypesOfThread.MainBackground();
 
+            //  TypesOfThread.DeadLock();
 
+            ThreadExample.ThreadCycleMain();
             Console.ReadKey();
 
              

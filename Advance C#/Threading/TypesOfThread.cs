@@ -58,5 +58,23 @@ namespace Advance_C_.Threading
             Console.WriteLine("Completed thread is: {0}",
                               Thread.CurrentThread.Name);
         }
+
+
+        public static void DeadLock()
+        {
+            try
+            {
+                Console.WriteLine("Into a Deadlock");
+                
+                Thread.CurrentThread.Join();
+
+                // Console.WriteLine("This statement will never execute");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
     }
 }
