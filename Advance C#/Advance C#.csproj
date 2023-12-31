@@ -102,6 +102,7 @@
     <Compile Include="Threading\LifeCycleThread.cs" />
     <Compile Include="Threading\Multithreading.cs" />
     <Compile Include="Threading\SingleThreatedModel.cs" />
+    <Compile Include="Threading\ThreadPrioriting.cs" />
     <Compile Include="Threading\TypesOfThread.cs" />
     <Compile Include="Tuple\TupleCreate.cs" />
   </ItemGroup>

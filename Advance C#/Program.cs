@@ -920,7 +920,9 @@ namespace Advance_C_
 
             //  TypesOfThread.DeadLock();
 
-            ThreadExample.ThreadCycleMain();
+            //ThreadExample.ThreadCycleMain();
+
+            ThreadPrioriting.MainPriorityMethod();
             Console.ReadKey();
 
              
