@@ -912,7 +912,10 @@ namespace Advance_C_
             // CreateMultiThread.MainThreadPool();
 
             // SingleThread.MainSingleThread();
-            Multithreading.MainMultithread();
+            //  Multithreading.MainMultithread();
+
+            // TypesOfThread.Foreground();
+            TypesOfThread.MainBackground();
 
 
             Console.ReadKey();

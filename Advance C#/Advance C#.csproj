@@ -101,6 +101,7 @@
     <Compile Include="Threading\CreateMultiThread.cs" />
     <Compile Include="Threading\Multithreading.cs" />
     <Compile Include="Threading\SingleThreatedModel.cs" />
+    <Compile Include="Threading\TypesOfThread.cs" />
     <Compile Include="Tuple\TupleCreate.cs" />
   </ItemGroup>
   <ItemGroup>
