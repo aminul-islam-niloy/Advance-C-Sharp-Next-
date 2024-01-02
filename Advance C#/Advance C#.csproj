@@ -71,6 +71,7 @@
     <Compile Include="Fundamentals\StringOperation.cs" />
     <Compile Include="Fundamentals\StructureImp.cs" />
     <Compile Include="GenericExample.cs" />
+    <Compile Include="Generic\CollectionAndGeneric.cs" />
     <Compile Include="Generic\Generic Delegate.cs" />
     <Compile Include="Generic\GenericExample.cs" />
     <Compile Include="Object Initializer\Studentinit.cs" />

@@ -582,7 +582,17 @@ namespace Advance_C_
             }
 
 
- // Generic in c#
+
+
+
+            //Collections and Generic
+
+            // CollectionAndGeneric.ListImplementation();
+            // CollectionAndGeneric.ArrayListOperations
+            // Sorted List, DictionaryEntry
+
+
+            // Generic in c#
 
             // it's an type data type.
 
@@ -592,7 +602,7 @@ namespace Advance_C_
             // it eleminate problem of boxing and unboxing 
 
 
-           
+
 
             GenericExample<int> generic_Student = new GenericExample<int>();
             {
@@ -922,7 +932,16 @@ namespace Advance_C_
 
             //ThreadExample.ThreadCycleMain();
 
-            ThreadPrioriting.MainPriorityMethod();
+           // ThreadPrioriting.MainPriorityMethod();
+
+
+
+
+
+
+
+            //Collection and Generic 
+
             Console.ReadKey();
 
              
