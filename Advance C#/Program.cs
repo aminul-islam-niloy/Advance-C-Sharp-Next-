@@ -591,6 +591,8 @@ namespace Advance_C_
             // CollectionAndGeneric.ArrayListOperations
             // Sorted List, DictionaryEntry
 
+            CollectionAndGeneric.Dictonarymain();
+
 
             // Generic in c#
 

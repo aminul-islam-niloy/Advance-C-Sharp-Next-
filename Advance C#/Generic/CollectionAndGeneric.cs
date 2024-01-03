@@ -111,7 +111,7 @@ namespace Advance_C_.Generic
 
         }
 
-        static public void Main()
+        static public void HasSetMain()
         {
 
             // Creating HashSet
@@ -143,6 +143,19 @@ namespace Advance_C_.Generic
             foreach (var ele in myhash1)
             {
                 Console.WriteLine(ele);
+            }
+        }
+
+        public static void Dictonarymain()
+        {
+            Dictionary<int,string> val = new Dictionary<int,string>();
+            val.Add(1022, "mjfb");
+            val.Add(876, "kfbj");
+            val.Add(765, "islamic");
+
+            foreach(KeyValuePair<int,string> ele in val)
+            {
+                Console.WriteLine("values {0} and {1}", ele.Key, ele.Value); 
             }
         }
 
