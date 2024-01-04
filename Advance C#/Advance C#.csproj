@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Anonymus\anonymus.cs" />
+    <Compile Include="Async and Await\Async_await.cs" />
     <Compile Include="Collection Initilazer\CollectionInit.cs" />
     <Compile Include="Deligates\DiffernetDelegate.cs" />
     <Compile Include="Deligates\MultiHandelerDelegate.cs" />
