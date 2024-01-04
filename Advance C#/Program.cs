@@ -4,6 +4,7 @@ using Advance_C_.ExtrnsionMethod;
 using Advance_C_.File_handling;
 using Advance_C_.Fundamentals;
 using Advance_C_.Generic;
+using Advance_C_.Namespace;
 using Advance_C_.Object_Initializer;
 using Advance_C_.OOP.Abstract;
 using Advance_C_.OOP.cardinality_constraints;
@@ -585,13 +586,13 @@ namespace Advance_C_
 
 
 
-            //Collections and Generic
+//Collections and Generic
 
             // CollectionAndGeneric.ListImplementation();
             // CollectionAndGeneric.ArrayListOperations
             // Sorted List, DictionaryEntry
 
-            CollectionAndGeneric.Dictonarymain();
+           // CollectionAndGeneric.Dictonarymain();
 
 
             // Generic in c#
@@ -934,7 +935,7 @@ namespace Advance_C_
 
             //ThreadExample.ThreadCycleMain();
 
-           // ThreadPrioriting.MainPriorityMethod();
+            // ThreadPrioriting.MainPriorityMethod();
 
 
 
@@ -943,6 +944,17 @@ namespace Advance_C_
 
 
             //Collection and Generic 
+
+
+
+
+            //Namespace and System
+
+            // BitConverterSystems.SystemBitConver();
+            // ConsoleApplicationOperations.DecoratorInConsole();
+             ConsoleApplicationOperations.DecoratorBufferConsole();
+           // ConsoleApplicationOperations.KeyPreessedMain();
+
 
             Console.ReadKey();
 

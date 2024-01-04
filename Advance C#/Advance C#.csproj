@@ -74,6 +74,8 @@
     <Compile Include="Generic\CollectionAndGeneric.cs" />
     <Compile Include="Generic\Generic Delegate.cs" />
     <Compile Include="Generic\GenericExample.cs" />
+    <Compile Include="Namespace\BitConverter.cs" />
+    <Compile Include="Namespace\ConsoleApplicationOperations.cs" />
     <Compile Include="Object Initializer\Studentinit.cs" />
     <Compile Include="OOP\Abstract\Shape.cs" />
     <Compile Include="OOP\Abstract\Square.cs" />
